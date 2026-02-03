@@ -1,0 +1,167 @@
+# =========================
+# Python & Django
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+venv*/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.log.*
+logs/
+log/
+
+# =========================
+# Django specific
+# =========================
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+media/**
+!media/.gitkeep        # agar media papkasini bo'sh saqlamoqchi bo'lsangiz
+local_settings.py
+local.py
+*.mo
+*.pot
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+.env.local
+.env.production
+.env.development
+.env.example
+!.env.example          # agar misol sifatida qoldirmoqchi bo'lsangiz
+
+# =========================
+# Docker & Dev Containers
+# =========================
+.docker/
+.dockerignore
+Dockerfile.*
+docker-compose*.yml
+docker-compose*.yaml
+!docker-compose.yml
+!docker-compose.yaml
+!Dockerfile
+*.docker
+.docker-sync/
+.docker-volume/
+.vscode/
+.devcontainer/
+.gitpod/
+*.code-workspace
+
+# =========================
+# IDE & Editors
+# =========================
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.tmproj
+*.esproj
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.code-workspace
+*.code-profile
+
+# =========================
+# OS & Temp files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+*.cache
+
+# =========================
+# Node.js / Frontend (agar bo'lsa)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.vuepress/dist/
+.cache/
+temp/
+tmp/
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.pdf
+*.exe
+*.dll
+*.so
+*.dylib
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.whl
+*.dist
+*.egg-info
+*.mo
